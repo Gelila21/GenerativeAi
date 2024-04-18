@@ -1,0 +1,78 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Align items in a vertical stack */
+  justify-content: flex-start; /* Start aligning items from the top */
+  align-items: center; /* Center items horizontally */
+  min-height: 100vh; /* Minimum viewport height, allows expanding */
+  width: 100%; /* Full width of the viewport */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.container {
+  width: 100%; /* Use 100% of the container width */
+  max-width: 400px; /* Maximum width of the container */
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  margin: 20px 0; /* Space above and below the container */
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 20px; /* Add space above the title */
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="number"], input[type="text"], button {
+  width: 100%; /* Full width of the form */
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+input[type="number"], input[type="text"] {
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00408d;
+}
+
+ul, p {
+  width: 100%; /* Ensures the response is also contained within the same width */
+  background-color: #f9f9f9; /* Light grey background for visibility */
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+p {
+  border-left: 5px solid #0056b3;
+}
